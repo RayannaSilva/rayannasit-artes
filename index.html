@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rayanna Silva</title>
+  <style>
+    :root {
+      --verde: #3fbf7f;
+      --azul: #2e9cca;
+      --amarelo: #ffcb05;
+      --laranja: #f7921e;
+      --fundo: #f0f8f5;
+      --texto: #2d2d2d;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--fundo);
+      color: var(--texto);
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--verde), var(--azul));
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      color: var(--laranja);
+      border-bottom: 2px solid var(--amarelo);
+      padding-bottom: 0.5rem;
+    }
+
+    .bio {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .fotos img {
+      width: 100%;
+      max-width: 300px;
+      margin: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .hobbies ul {
+      list-style: square;
+      padding-left: 1.5rem;
+    }
+
+    .social a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: var(--azul);
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: var(--verde);
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      .fotos img {
+        width: 100%;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rayanna Silva</h1>
+  </header>
+
+  <main>
+    <section class="sobre">
+      <h2>Sobre Mim</h2>
+      <p class="bio">
+        Rayanna Silva, 36 anos, Tocantinense, compositora, escritora e fotógrafa. A natureza inspira suas criações, e cada palavra ou imagem carrega emoção, força e identidade.
+      </p>
+    </section>
+
+    <section class="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Escrever poesias e crônicas</li>
+        <li>Compor músicas</li>
+        <li>Fotografar paisagens naturais</li>
+        <li>Ler livros sobre filosofia e arte</li>
+        <li>Viajar e conhecer culturas diferentes</li>
+      </ul>
+    </section>
+
+    <section class="fotos">
+      <h2>Fotos</h2>
+      <p>Aqui estão algumas fotos favoritas (substitua pelas suas):</p>
+      <img src="https://via.placeholder.com/300x200?text=Foto+1" alt="Foto 1" />
+      <img src="https://via.placeholder.com/300x200?text=Foto+2" alt="Foto 2" />
+    </section>
+
+    <section class="social">
+      <h2>Redes Sociais</h2>
+      <p>
+        <a href="https://www.facebook.com/rayanna.silva.75470" target="_blank">Facebook</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Rayanna Silva — Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
